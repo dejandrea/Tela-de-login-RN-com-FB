@@ -4,7 +4,7 @@ import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import selectRouters, {routers} from './src/navigationRouters';
+import selectRouters, {routers} from './navigationRouters';
 
 const theme = {
   ...DefaultTheme,
