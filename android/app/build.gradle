@@ -188,7 +188,7 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
-
+    implementation project(path: ":@react-native-firebase_dynamic-links")
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation platform('com.google.firebase:firebase-bom:29.2.1')
     def isGifEnabled = (findProperty('expo.gif.enabled') ?: "") == "true";
